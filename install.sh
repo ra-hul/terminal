@@ -25,3 +25,9 @@ mkdir .janus
 cd ~/.janus
 g clone https://github.com/Chiel92/vim-autoformat.git
 g clone https://github.com/morhetz/gruvbox.git
+
+cd;
+brew install postgresql
+brew tap homebrew/services
+brew services start postgresql
+brew install mysql
