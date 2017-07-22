@@ -33,3 +33,5 @@ brew services start postgresql
 brew install mysql
 
 cd ~/; curl https://raw.githubusercontent.com/ra-hul/terminal/master/vimrc.after > .vimrc.after
+
+ brew install unrar bash-completion lftp wget nodejs
