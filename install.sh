@@ -31,3 +31,5 @@ brew install postgresql
 brew tap homebrew/services
 brew services start postgresql
 brew install mysql
+
+cd ~/; curl https://raw.githubusercontent.com/ra-hul/terminal/master/vimrc.after > .vimrc.after
