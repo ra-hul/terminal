@@ -1,0 +1,47 @@
+syntax enable
+colorscheme gruvbox
+set background=dark
+filetype plugin on
+set wrap
+set linebreak
+let mapleader=","
+"let g:ycm_seed_identifiers_with_syntax = 1
+"let g:ycm_disable_for_files_larger_than_kb=10000
+"source /usr/local/lib/python2.7/site-packages/powerline/bindings/vim/plugin/powerline.vim
+"set laststatus=2
+set guifont=Inconsolata\ for\ Powerline:h14
+let g:sql_type_default = 'pgsql'
+set smartindent
+let g:formatter_yapf_style = 'pep8'
+
+"Syntastic config
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+"Key mappings-------
+noremap <F3> :Autoformat<CR>
+set clipboard=unnamed
+set hidden
+set shiftwidth=4
+set ignorecase
+set smartcase
+set smarttab
+set hlsearch
+set incsearch
+set history=1000
+set undolevels=1000
+set visualbell
+set noerrorbells
+set title "Better Vim"
+filetype plugin indent on
+set pastetoggle=<F2>
+nnoremap ; :
+map <leader>n :bn<CR>
+map <leader>p :bp<CR>
+map <leader>d :bd<CR>
