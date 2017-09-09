@@ -45,3 +45,6 @@ nnoremap ; :
 map <leader>n :bn<CR>
 map <leader>p :bp<CR>
 map <leader>d :bd<CR>
+map <leader>f :b<CR>
+nmap =j :%!python -m json.tool<CR>
+au BufRead /tmp/psql.edit.* set syntax=sql
