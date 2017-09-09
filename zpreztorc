@@ -203,3 +203,5 @@ zstyle ':prezto:module:prompt' theme 'cloud'
 # prompt before deleting or copying over files. Set to no to disable this safer
 # behavior.
 # zstyle ':prezto:module:utility' safe-ops yes
+export EDITOR=vim
+export PSQL_EDITOR=vim
