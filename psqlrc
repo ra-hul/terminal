@@ -11,4 +11,5 @@
 \set PROMPT1 '%[%033[1m%]%x%n@%m:%>/%/%R%[%033[0m%]%# '
 \set PROMPT2 '[more] %R > '
 \set ON_ERROR_ROLLBACK interactive
+\x auto
 \unset QUIET
